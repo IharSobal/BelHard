@@ -1,6 +1,3 @@
-import args as args
-import kwargs as kwargs
-
 name = input("Введите Ваше имя:")
 age = int(input("Введите ваш возраст:"))
 city = input("Введите ваш город проживания:")
