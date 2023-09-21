@@ -1,4 +1,3 @@
-text = 'hello world'
-data = {i: (ord(i) + 2) for i in text}
-
-print(data)
+text = input('Введите возраст ')
+while not text.isdigit():
+    text = input('Введите возраст числом ')
