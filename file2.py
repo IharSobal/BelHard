@@ -6,3 +6,10 @@
 #     a = input()
 #     b = reversed(a)
 #     if
+# def text(key: str, messege: str) -> list[int]:
+#     key = SYSTEM
+#     messege = LONDON
+#     for i in range(len(key)):
+#
+#         print(i)
+
