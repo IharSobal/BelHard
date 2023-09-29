@@ -34,3 +34,12 @@
 #             if 10 * b + 5 * k + 0.5 * t == 100 and b + k + t == 100:
 #                 print('b =', b, 'k =', k, 't =', t)
 #
+# a = int(input())
+# b = int(input())
+# for i in range(a, b + 1):
+#     counter = 0
+#     for j in range(1, i + 1):
+#         if i % j == 0:
+#             counter += 1
+#     if counter == 2:
+#         print(i)
