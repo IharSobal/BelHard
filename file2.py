@@ -12,4 +12,10 @@
 #     for i in range(len(key)):
 #
 #         print(i)
-
+# def find_shop(shops: dict[str, list[str]], product: str) -> list[str]:
+#     result = []
+#     for shop, products in
+#
+# def spisok(spisok_strok: str, okonchanie: str) -> list[str]:
+#     spisok_strok = spisok_strok.split()
+#
