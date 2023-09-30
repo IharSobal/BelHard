@@ -43,3 +43,15 @@
 #             counter += 1
 #     if counter == 2:
 #         print(i)
+#Числа Рамануджана
+# for z in range(1729, 36000):
+#     for a in range(1, 33):
+#         for b in range(a, 33):
+#             for c in range(b, 33):
+#                 for d in range(c, 33):
+#                     if a ** 3 + b ** 3 == c ** 3 + d ** 3 == z and a != c and a != d and a != b and c != d and c != b and d != b:
+#                         print(z, a, b, c, d)
+# s = 'abcdef'
+# for c in s:
+#     print(c)
+#
