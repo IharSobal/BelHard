@@ -101,3 +101,41 @@
 #
 # # вызываем функцию
 # print(get_days(num))
+# объявление функции
+# def get_factors(num):
+#     return len([i for i in range(1, num + 1) if num % i == 0])
+#
+# # считываем данные
+# n = int(input())
+#
+# # вызываем функцию
+# print(get_factors(n))
+# объявление функции
+# def find_all(target, symbol):
+#     my_list = []
+#     count = -1
+#     for i in target:
+#         count += 1
+#         if i == symbol:
+#             my_list.append(count)
+#     return my_list
+#
+# # считываем данные
+# s = input()
+# char = input()
+#
+# # вызываем функцию
+# print(find_all(s, char))
+
+# объявление функции
+# def merge(list1, list2):
+#     list1 += list2
+#     list1.sort()
+#     return list1
+#
+# # считываем данные
+# numbers1 = [int(c) for c in input().split()]
+# numbers2 = [int(c) for c in input().split()]
+# # print(numbers1, numbers2)
+# # вызываем функцию
+# print(merge(numbers1, numbers2))
