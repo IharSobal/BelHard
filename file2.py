@@ -225,4 +225,15 @@
 # # print('asdf'[::-1])
 # объявление функции
 # def is_correct_bracket(text):
-
+# text = 'ThisIsCamelCased'
+# s = list(text)
+# s1 = []
+# for i in s:
+#     if i.isupper():
+#         s1.append('_')
+#         s1.append(i.lower())
+#         continue
+#     s1.append(i)
+# del s1[0]
+# # print(''.join(s1))
+# print(s1)
