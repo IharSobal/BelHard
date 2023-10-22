@@ -148,3 +148,22 @@
 #
 # # вызываем функцию
 # print(is_valid_triangle(a, b, c))
+# объявление функции
+# def get_next_prime(num):
+#     counter = 0
+#     num2 = num + 1
+#     while counter != 2:
+#         for i in range(1, num2 + 1):
+#             if num2 % i == 0:
+#                 counter += 1
+#         if counter != 2:
+#             num2 += 1
+#             counter = 0
+#         else:
+#             return num2
+#
+# # считываем данные
+# n = int(input())
+#
+# # вызываем функцию
+# print(get_next_prime(n))
