@@ -167,3 +167,62 @@
 #
 # # вызываем функцию
 # print(get_next_prime(n))
+# # объявление функции
+# def is_one_away(word1, word2):
+#     counter = 0
+#     if len(word1) == len(word1):
+#         for i in range(len(word1)):
+#             if word1[i] == word2[i]:
+#                 counter += 1
+#     if counter == len(word1) - 1:
+#         return True
+#     else:
+#         return False
+#
+# # считываем данные
+# txt1 = input()
+# txt2 = input()
+#
+# # вызываем функцию
+# print(is_one_away(txt1, txt2))
+# text = 'А роза упала на лапу Азора.'
+# s = list(text.lower())
+# s1 = [i for i in s if i.isalpha()]
+# # s1 = []
+# # for i in s:
+# #     if i.isalpha():
+# #         s1.append(i)
+# if s1 == s1[::-1]:
+#     print(s1)
+# else:
+#     print(False)
+# объявление функции
+# def is_valid_password(password):
+#     s = password.split(':')
+#     counter = 0
+#     count =0
+#     t1, t2, t3 = s[0], s[1], s[2]
+#     if t1 == t1[::-1]:
+#         counter += 1
+#     for i in range(1, int(t2) + 1):
+#         if int(t2) % i == 0:
+#             count += 1
+#     if count == 2:
+#         counter += 1
+#     if int(t3) % 2 == 0:
+#         counter += 1
+#     if counter == 3:
+#         return True
+#     else:
+#         return False
+#
+#
+# # считываем данные
+# psw = '565:30:50'
+#
+# # вызываем функцию
+# print(is_valid_password(psw))
+# # print('asdf'[::-1])
+# объявление функции
+# def is_correct_bracket(text):
+
