@@ -237,3 +237,62 @@
 # del s1[0]
 # # print(''.join(s1))
 # print(s1)
+# from math import pi
+# # объявление функции
+# def get_circle(radius):
+#     c_l = 2 * pi * radius
+#     s = pi * pow(radius, 2)
+#     return c_l, s
+#
+# # считываем данные
+# r = float(input())
+#
+# # вызываем функцию
+# length, square = get_circle(r)
+# print(length, square)
+# for i in range(8):
+#     print(' ' * (7 - i), '*' * (1 + i * 2), sep='')
+# d = {
+#     1: 'один', 2: 'два', 3: 'три', 4: 'четыре', 5: 'пять',
+#     6: 'шесть', 7: 'семь', 8: 'восемь', 9: 'девять', 10: 'десять',
+#     11: 'одиннадцать', 12: 'двенадцать', 13: 'тринадцать', 14: 'четырнадцать', 15: 'пятнадцать',
+#     16: 'шестнадцать', 17: 'семнадцать', 18: 'восемнадцать', 19: 'девятнадцать', 20: 'двадцать',
+#     30: 'тридцать', 40: 'сорок', 50: 'пятьдесят', 60: 'шестьдесят', 70: 'семьдесят',
+#     80: 'восемьдесят', 90: 'девяносто'
+# }
+# num = 25
+# if 1 <= num <= 20:
+#     print(d.get(num))
+# if 21 <= num <= 99:
+#     two = num % 10
+#     one = num // 10 * 10
+#     if two == 0:
+#         print(d.get(one))
+#     else:
+#         print(d.get(one), d.get(two))
+# d = {
+#     'ru': {
+#         1: 'январь', 2: 'февраль', 3: 'март', 4: 'апрель', 5: 'май', 6: 'июнь',
+#         7: 'июль', 8: 'август', 9: 'сентябрь', 10: 'октябрь', 11: 'ноябрь', 12: 'декабрь'
+#     },
+#     'en': {
+#         1: 'january', 2: 'february', 3: 'march', 4: 'april', 5: 'may', 6: 'june',
+#         7: 'july', 8: 'august', 9: 'september', 10: 'october', 11: 'november', 12: 'december'
+#     }
+# }
+# lan = 'en'
+# num = 10
+# print(d.get(lan).get(num))
+# date = '11.06.1960'
+text = 'Hello world'
+text2 = 'abcdefghijklmnopqrstuvwxyz'
+# s = text.lower().split()
+s = text.lower().split()
+s2 = list(text2)
+s1 = []
+# for i in s:
+#     s1.extend(i)
+# if set(s1) == set(s2):
+#     print(True)
+# else:
+#     print(False)
