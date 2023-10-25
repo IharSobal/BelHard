@@ -284,12 +284,12 @@
 # num = 10
 # print(d.get(lan).get(num))
 # date = '11.06.1960'
-text = 'Hello world'
-text2 = 'abcdefghijklmnopqrstuvwxyz'
+# text = 'Hello world'
+# text2 = 'abcdefghijklmnopqrstuvwxyz'
+# # s = text.lower().split()
 # s = text.lower().split()
-s = text.lower().split()
-s2 = list(text2)
-s1 = []
+# s2 = list(text2)
+# s1 = []
 # for i in s:
 #     s1.extend(i)
 # if set(s1) == set(s2):
@@ -297,6 +297,32 @@ s1 = []
 # else:
 #     print(False)
 from random import randint
-num = randint(1, 100)
-print(num)
-print('Добро пожаловать в числовую угадайку.')
+def is_valid_digit(string):
+    return string.isdigit()
+n = input('Введите число до какого хотите угадывать (больше 1):')
+while not is_valid_digit(n) or not int(n) > 1:
+    n = input('Введите все же ЧИСЛО больше 1:')
+n = int(n)
+num = randint(1, n)
+# print(num)
+
+# print(num)
+print(f'Добро пожаловать в числовую угадайку от 1 до {n}.')
+flag = True
+counter = 0
+while flag:
+    s = input('Попробуйте угадать число, введите сюда:')
+    if is_valid_digit(s) and 1 <= int(s) <= n:
+        s = int(s)
+        counter += 1
+        if s == num:
+            flag = False
+            print('Вы угадали, поздравляем!')
+        if s < num:
+            print('Ваше число меньше загаданного, попробуйте еще разок')
+        if s > num:
+            print('Ваше число больше загаданного, попробуйте еще разок')
+    else:
+        print(f'А может быть все-таки введем целое число от 1 до {n}?')
+print('Количество ваших попыток:', counter)
+print('Спасибо, что играли в числовую угадайку. Еще увидимся...')
