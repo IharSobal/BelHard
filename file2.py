@@ -296,3 +296,7 @@ s1 = []
 #     print(True)
 # else:
 #     print(False)
+from random import randint
+num = randint(1, 100)
+print(num)
+print('Добро пожаловать в числовую угадайку.')
