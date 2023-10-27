@@ -296,42 +296,74 @@
 #     print(True)
 # else:
 #     print(False)
-text = 'Блажен, кто верует, тепло ему на свете!'
-for i in text:
-    if i.isalpha():
-        sim = ord(i) + 10
-        if sim > 1103:
-            sim -= 64
-        print(chr(sim), end='')
-    else:
-        print(i, end='')
-print(ord('А'), ord('Я'), ord('а'), ord('я'))
-text = 'To be, or not to be, that is the question!'
-for i in text:
-    if i.isalpha():
-        if i.isupper():
-            sim = ord(i) + 17
-            if sim > 90:
-                sim -= 26
-        if i.islower():
-            sim = ord(i) + 17
-            if sim > 122:
-                sim -= 26
-        print(chr(sim), end='')
-    else:
-        print(i, end='')
-print(ord('A'), ord('Z'), ord('a'), ord('z'), [chr(i) for i in range(91, 97)])
-text = 'Шсъцхр щмчжмщ йшм, нмтзж йшм лхшщзщг.'
-for i in text:
-    if i.isalpha():
-        if i.isupper():
-            sim = ord(i) - 7
-            if sim < 1040:
-                sim += 32
-        if i.islower():
-            sim = ord(i) - 7
-            if sim < 1072:
-                sim += 32
-        print(chr(sim), end='')
-    else:
-        print(i, end='')
+# text = 'Блажен, кто верует, тепло ему на свете!'
+# for i in text:
+#     if i.isalpha():
+#         sim = ord(i) + 10
+#         if sim > 1103:
+#             sim -= 64
+#         print(chr(sim), end='')
+#     else:
+#         print(i, end='')
+# print(ord('А'), ord('Я'), ord('а'), ord('я'))
+# text = 'To be, or not to be, that is the question!'
+# for i in text:
+#     if i.isalpha():
+#         if i.isupper():
+#             sim = ord(i) + 17
+#             if sim > 90:
+#                 sim -= 26
+#         if i.islower():
+#             sim = ord(i) + 17
+#             if sim > 122:
+#                 sim -= 26
+#         print(chr(sim), end='')
+#     else:
+#         print(i, end='')
+# print(ord('A'), ord('Z'), ord('a'), ord('z'), [chr(i) for i in range(91, 97)])
+# text = 'Шсъцхр щмчжмщ йшм, нмтзж йшм лхшщзщг.'
+# for i in text:
+#     if i.isalpha():
+#         if i.isupper():
+#             sim = ord(i) - 7
+#             if sim < 1040:
+#                 sim += 32
+#         if i.islower():
+#             sim = ord(i) - 7
+#             if sim < 1072:
+#                 sim += 32
+#         print(chr(sim), end='')
+#     else:
+#         print(i, end='')
+# print()
+# text = 'Sgd fqzrr hr zkvzxr fqddmdq nm sgd nsgdq rhcd ne sgd edmbd.'
+# for i in text:
+#     if i.isalpha():
+#         if i.isupper():
+#             sim = ord(i) - 25
+#             if sim < 65:
+#                 sim += 26
+#         if i.islower():
+#             sim = ord(i) - 25
+#             if sim < 97:
+#                 sim += 26
+#         print(chr(sim), end='')
+#     else:
+#         print(i, end='')
+# print()
+# text = 'Hawnj pk swhg xabkna ukq nqj.'
+# for j in range(1, 26):
+#     for i in text:
+#         if i.isalpha():
+#             if i.isupper():
+#                 sim = ord(i) - j
+#                 if sim < 65:
+#                     sim += 26
+#             if i.islower():
+#                 sim = ord(i) - j
+#                 if sim < 97:
+#                     sim += 26
+#             print(chr(sim), end='')
+#         else:
+#             print(i, end='')
+#     print()
