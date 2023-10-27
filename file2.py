@@ -321,3 +321,17 @@ for i in text:
     else:
         print(i, end='')
 print(ord('A'), ord('Z'), ord('a'), ord('z'), [chr(i) for i in range(91, 97)])
+text = 'Шсъцхр щмчжмщ йшм, нмтзж йшм лхшщзщг.'
+for i in text:
+    if i.isalpha():
+        if i.isupper():
+            sim = ord(i) - 7
+            if sim < 1040:
+                sim += 32
+        if i.islower():
+            sim = ord(i) - 7
+            if sim < 1072:
+                sim += 32
+        print(chr(sim), end='')
+    else:
+        print(i, end='')
