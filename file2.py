@@ -296,4 +296,13 @@
 #     print(True)
 # else:
 #     print(False)
-
+text = 'Блажен, кто верует, тепло ему на свете!'
+for i in text:
+    if i.isalpha():
+        sim = ord(i) + 10
+        if sim > 1103:
+            sim -= 64
+        print(chr(sim), end='')
+    else:
+        print(i, end='')
+print(ord('А'), ord('Я'), ord('а'), ord('я'))
