@@ -306,3 +306,18 @@ for i in text:
     else:
         print(i, end='')
 print(ord('А'), ord('Я'), ord('а'), ord('я'))
+text = 'To be, or not to be, that is the question!'
+for i in text:
+    if i.isalpha():
+        if i.isupper():
+            sim = ord(i) + 17
+            if sim > 90:
+                sim -= 26
+        if i.islower():
+            sim = ord(i) + 17
+            if sim > 122:
+                sim -= 26
+        print(chr(sim), end='')
+    else:
+        print(i, end='')
+print(ord('A'), ord('Z'), ord('a'), ord('z'), [chr(i) for i in range(91, 97)])
